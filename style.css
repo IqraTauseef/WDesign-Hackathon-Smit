@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+    background-color:none;
+    background-image: url('./imges/mountains-morning-snow-rock-mountain-landscape.png');
+    background-size: cover;
+    background-position: center;
+}
+.color{
+    background-color: rgba(250, 249, 249, 0.048);
+    border-bottom: 1px solid white;
+}
+  .text-center{
+    margin-left: 28%;
+  }
+  .btn{
+    background-color: none
+    ;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    text-decoration: underline;
+    color: white;
+  }
+  .SiteLogo{
+    margin-left: 15px;
+  }
+  
+  .btn-lg img {
+    transition: transform 0.3s ease;
+  }
+
+  .btn-lg:hover img {
+    transform: translateY(-5px);
+
+  }
